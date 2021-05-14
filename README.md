@@ -31,10 +31,3 @@
 - The winner of the election is:
      - Diane DeGette received 272,892 votes, representing 73.81% of the total votes
 
-
-
-### Challenge Overview
-
-
-
-### Challenge Summary
