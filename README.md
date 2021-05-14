@@ -11,10 +11,10 @@
 ### 5. Determine the winner of the election based on popular vote.
 
 ##
-## Resources
-### Data sources: election_results.csv
-### Software used: Programming language - Python Release 3.9.5 64-bit
-###                Code Editor: Visual Studio Code V1.56.2
+### Resources
+- Data sources: election_results.csv
+- Software used: Programming language - Python Release 3.9.5 64-bit
+- Code Editor: Visual Studio Code V1.56.2
 
 
 ##
