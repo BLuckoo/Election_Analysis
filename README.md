@@ -17,8 +17,16 @@
 ###                Code Editor: Visual Studio Code V1.56.2
 
 
-
+##
 ## Summary
+### The analysis of the elections result show that:
+
+### * There were a total of 369,711 votes cast in the election.
+### . The candidates were:
+### . Charles Casper Stockham
+### . Diane DeGette
+### . Raymon Anthony Doane
+
 
 
 ## Challenge Overview
