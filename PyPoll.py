@@ -4,7 +4,7 @@ import os
 # Assign a variable to load a file from a path.
 file_to_load = os.path.join("Resources", "election_results.csv")
 # Assign a variable to save the file to a path.
-file_to_save = os.path.join("analysis", "election_analysis.txt")
+file_to_save = os.path.join("Resources", "election_analysis.txt")
 
 #1. Initialize a total vote counter.
 total_votes=0
@@ -13,6 +13,11 @@ total_votes=0
 candidate_options=[]
 #declare the empty dictionary
 candidate_votes={}
+
+# Winning Candidate and Winning Count Tracker
+winning_candidate = ""
+winning_count = 0
+winning_percentage = 0
 
 # Open the election results and read the file.
 with open(file_to_load) as election_data:
@@ -41,6 +46,9 @@ with open(file_to_load) as election_data:
             #Add a vote to that candidate's count
         candidate_votes[candidate_name] +=1
 
+
+
+       
 #Print the candidate list
 print(candidate_options)
 
@@ -61,11 +69,17 @@ for candidate_name in candidate_votes:
     # 4. Print the candidate name and percentage of votes.
     print(f"{candidate_name}: received {vote_percentage}% of the vote.")
 
-
-
-
-
-
-
+# Determine winning vote count and candidate
+    # Determine if the votes is greater than the winning count.
+    if (float(votes) > float(winning_count)) and (float(vote_percentage) > float(winning_percentage)):
+         # If true then set winning_count = votes and winning_percent =
+         # vote_percentage.
+         winning_count = votes
+         winning_percentage = vote_percentage
+         # And, set the winning_candidate equal to the candidate's name.
+         winning_candidate = candidate_name
+   
+# print the winning candidate, vote count and percentage to
+print(f"The winning candidate is {winning_candidate} who received {winning_count} votes. This is {winning_percentage}% of all votes")
 
   
