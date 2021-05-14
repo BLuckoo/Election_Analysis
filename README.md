@@ -10,6 +10,7 @@
 ### 4. Calculate the percentage of votes each candidate won.
 ### 5. Determine the winner of the election based on popular vote.
 
+##
 ## Resources
 
 
