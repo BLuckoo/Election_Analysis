@@ -12,6 +12,9 @@
 
 ##
 ## Resources
+### Data sources: election_results.csv
+### Software used: Programming language - Python Release 3.9.5 64-bit
+###                Code Editor: Visual Studio Code V1.56.2
 
 
 
